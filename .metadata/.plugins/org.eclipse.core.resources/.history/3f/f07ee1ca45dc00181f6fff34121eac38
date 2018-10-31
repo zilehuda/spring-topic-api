@@ -1,0 +1,5 @@
+package io.zilehuda.spring.topic;
+
+public class TopicService {
+
+}

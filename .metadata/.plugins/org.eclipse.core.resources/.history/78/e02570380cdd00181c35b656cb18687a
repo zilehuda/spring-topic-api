@@ -1,0 +1,12 @@
+package io.zilehuda.spring.topic;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Autowired
+private TopicRepositor topicreposiroty;
+
+@Service
+public class TopicService {
+
+}

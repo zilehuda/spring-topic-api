@@ -1,0 +1,7 @@
+package io.zilehuda.spring.topic;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface TopicRepository extends CrudRepository{
+
+}
