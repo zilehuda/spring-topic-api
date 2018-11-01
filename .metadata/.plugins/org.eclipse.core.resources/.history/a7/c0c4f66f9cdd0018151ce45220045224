@@ -1,0 +1,12 @@
+package io.zilehuda.spring;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TopicApiDataApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TopicApiDataApplication.class, args);
+	}
+}

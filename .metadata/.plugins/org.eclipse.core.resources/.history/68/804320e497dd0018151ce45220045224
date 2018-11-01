@@ -1,0 +1,22 @@
+package io.zilehuda.spring.topic;
+
+@RestController
+public class TopicController {
+	
+	@Autowired
+	private TopicService topicservice;
+	
+	@RequestMapping("/topics")
+	public List<Topic> getAllTopic() {
+		
+		return topicservice.getAllTopics();
+		
+	}
+	
+	@RequestMapping(method=RequestMethod.POST,value="/topics")
+	public void addTopic(@RequestBody Topic topic)
+	{
+		topicservice
+	}
+
+}

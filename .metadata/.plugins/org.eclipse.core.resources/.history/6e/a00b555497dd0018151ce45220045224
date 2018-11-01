@@ -1,0 +1,27 @@
+package io.zilehuda.spring.topic;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+
+@Service
+public class TopicService {
+
+	
+	@Autowired
+	private TopicRepository topicreposiroty;
+	
+	
+	public List<Topic> getAllTopics()
+	{
+		return (List<Topic>) topicreposiroty.findAll();
+	}
+	
+	public void addTopic(Topic topic)
+	{
+		topicreposiroty.save(topic);
+	}
+}

@@ -5,7 +5,219 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-10-30T22:13:11Z</updated>
+  <updated>2018-10-31T17:19:00Z</updated>
+  <entry>
+    <title>Reactor Bismuth-SR13 and Californium-SR2 available now !</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/10/31/reactor-bismuth-sr13-and-californium-sr2-available-now" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Stephane Maldini</name>
+    </author>
+    <id>tag:spring.io,2018-10-31:3462</id>
+    <updated>2018-10-31T17:19:00Z</updated>
+    <content type="html">&lt;h1&gt;&lt;a href="#californium-update" class="anchor" name="californium-update"&gt;&lt;/a&gt;Californium Update&lt;/h1&gt;
+&lt;p&gt;On behalf of the Reactor team, I am pleased to announce that &lt;code&gt;Californium-SR2&lt;/code&gt; release train &lt;a href="http://projectreactor.io/docs"&gt;is available now&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;This maintenance release of the &lt;em&gt;Californium&lt;/em&gt; line includes the following dependencies updates:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reactor-Core &lt;em&gt;3.2.2&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-core/releases/tag/v3.2.2.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-core"&gt;Repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reactor-Netty &lt;em&gt;0.8.2&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-netty/releases/tag/v0.8.2.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-netty"&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h1&gt;&lt;a href="#bismuth-update" class="anchor" name="bismuth-update"&gt;&lt;/a&gt;Bismuth Update&lt;/h1&gt;
+&lt;p&gt;We also have shipped &lt;code&gt;Bismuth-SR13&lt;/code&gt;. This maintenance release of the &lt;em&gt;Bismuth&lt;/em&gt; line includes the following dependencies updates:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reactor-Core &lt;em&gt;3.1.11&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-core/releases/tag/v3.1.11.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-core/tree/3.1.x"&gt;Repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reactor-Netty &lt;em&gt;0.7.11&lt;/em&gt; | &lt;a href="https://github.com/reactor/reactor-netty/releases/tag/v0.7.11.RELEASE"&gt;Release Notes&lt;/a&gt; | &lt;a href="https://github.com/reactor/reactor-netty/tree/0.7.x"&gt;Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks a lot to our contributors, and as usual, update while it&amp;rsquo;s hot :)&lt;/p&gt;&lt;h1&gt;&lt;a href="#media" class="anchor" name="media"&gt;&lt;/a&gt;Media&lt;/h1&gt;
+&lt;p&gt;The team was quite active in various conferences this last month, you can catch up with our latest presentations on Youtube from &lt;a href="https://springoneplatform.io/"&gt;SpringOne Platform&lt;/a&gt; and &lt;a href="https://www.oracle.com/code-one/index.html"&gt;Oracle Code One&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What&amp;rsquo;s new in Californium | &lt;a href="https://www.youtube.com/watch?v=szEHXgWeF3Q"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/reactor-californium"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Flight of the Flux | &lt;a href="https://www.youtube.com/watch?v=sNgTTcG-fEU"&gt;Youtube&lt;/a&gt; | &lt;a href="https://speakerdeck.com/simonbasle/flight-of-the-flux"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/simonbasle"&gt;Simon Basle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reactor Netty, The default Reactive Runtime for Spring Boot 2 | &lt;a href="https://www.youtube.com/watch?v=flzWgXmynaA"&gt;Youtube&lt;/a&gt; | &lt;a href="https://twitter.com/violeta_g_g"&gt;Violeta Georgeva&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Future of Reactive Architectures | &lt;a href="https://www.youtube.com/watch?v=D2Z5d9dEBxQ"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/the-future-of-reactive-architectures-119037248"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/stevegury"&gt;Steve Gury&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Distributed Reactive-Streams with RSocket, Reactor and Spring | &lt;a href="https://www.youtube.com/watch?v=WVnAbv65uCU"&gt;Youtube&lt;/a&gt; | &lt;a href="https://www.slideshare.net/StphaneMaldini/multiservice-reactive-streams-using-spring-reactor-rsocket"&gt;Slides&lt;/a&gt; | &lt;a href="https://twitter.com/smaldini"&gt;Stephane Maldini&lt;/a&gt; | &lt;a href="https://twitter.com/nebhale"&gt;Ben Hale&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h1&gt;&lt;a href="#one-last-thing" class="anchor" name="one-last-thing"&gt;&lt;/a&gt;One Last Thing&lt;/h1&gt;
+&lt;p&gt;The list above is far from exhaustive, you can browse &lt;a href="https://www.youtube.com/user/SpringSourceDev"&gt;the full list of videos from SpringOne to find more Reactive content&lt;/a&gt;. Make sure to check out our latest incubating reactive project: &lt;a href="http://r2dbc.io"&gt;R2DBC&lt;/a&gt;, an initiative to bring Reactive Streams to relational database access. Also, take a deeper look at &lt;a href="http://rsocket.io"&gt;RSocket&lt;/a&gt; for more details about Reactive Streams applied to network communications.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projectreactor.io"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/reactor"&gt;GitHub&lt;/a&gt; | &lt;a href="https://projectreactor.io/docs"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Security OAuth2 Auto-config 2.0.6 &amp; 2.1.0 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/10/31/spring-security-oauth2-auto-config-2-0-6-2-1-0-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Josh Cummings</name>
+    </author>
+    <id>tag:spring.io,2018-10-23:3445</id>
+    <updated>2018-10-31T15:37:47Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;I&amp;#8217;m pleased to announce on behalf of the community &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot"&gt;Spring Security OAuth2 Boot Auto-config&lt;/a&gt; 2.0.6 and 2.1.0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Both releases primarily deliver bug fixes and dependency version updates along with some minor improvements. Of particular note is that these align with &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.1.0.RELEASE"&gt;recent&lt;/a&gt; &lt;a href="https://github.com/spring-projects/spring-boot/releases/tag/v2.0.6.RELEASE"&gt;releases&lt;/a&gt; of Spring Boot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Note that for 2.1.0, gaps in configuration of keys between Resource Server and Authorization Server were brought into parity. Now, it&amp;#8217;s possible on the Authorization Server side &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/issues/56"&gt;to configure a single key&lt;/a&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;security:
+  oauth2:
+    authorization:
+      jwt:
+        key-value: ${PRIVATE_KEY}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;similar to Resource Server configuration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Also, some &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/issues/18"&gt;basic support for configuring a key store&lt;/a&gt; was added to both Resource Server and Authorization Server.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a complete list of changes, please refer to the 2.0.6 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/14"&gt;changelog&lt;/a&gt;, the 2.1.0.RC1 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/12?closed=1"&gt;changelog&lt;/a&gt; and the 2.1.0 &lt;a href="https://github.com/spring-projects/spring-security-oauth2-boot/milestone/5?closed=1"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-security/"&gt;Project Site&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-security-oauth2-boot/docs/current/reference/htmlsingle/"&gt;Reference&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-security"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Session Bean GA Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/10/31/spring-session-bean-ga-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Rob Winch</name>
+    </author>
+    <id>tag:spring.io,2018-10-31:3461</id>
+    <updated>2018-10-31T13:59:32Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by &lt;a href="https://github.com/vpavic"&gt;Vedran Pavić&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the general availability of Spring Session BOM Bean. This is the first release based on Spring Session 2.1 and can be easily consumed with freshly released &lt;a href="https://spring.io/blog/2018/10/30/spring-boot-2-1-0"&gt;Spring Boot 2.1&lt;/a&gt;. Please read on for the highlights of the release.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="same-site-cookie-support-for-code-httpsession-code-integration"&gt;&lt;a class="anchor" href="#same-site-cookie-support-for-code-httpsession-code-integration"&gt;&lt;/a&gt;Same-Site Cookie support for &lt;code&gt;HttpSession&lt;/code&gt; integration&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Same-Site Cookie is another mechanism that &lt;a href="https://scotthelme.co.uk/csrf-is-dead/"&gt;helps developers to protect from Cross-Site Request Forgery&lt;/a&gt;. Our &lt;code&gt;DefaultCookieSerializer&lt;/code&gt; has been enhanced to support adding &lt;code&gt;SameSite&lt;/code&gt; attribute to session cookie produced by Spring Session. The &lt;code&gt;SameSite&lt;/code&gt; attribute is enabled by default with value &lt;code&gt;Lax&lt;/code&gt; and is customizable using &lt;code&gt;DefaultCookieSerializer#setSameSite&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Note that the equivalent support for &lt;code&gt;WebSession&lt;/code&gt; is present in the Spring WebFlux itself starting with Spring Framework 5.1.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="code-httpsessionbindinglistener-code-support"&gt;&lt;a class="anchor" href="#code-httpsessionbindinglistener-code-support"&gt;&lt;/a&gt;&lt;code&gt;HttpSessionBindingListener&lt;/code&gt; support&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Spring Session now supports &lt;a href="https://javaee.github.io/javaee-spec/javadocs/javax/servlet/http/HttpSessionBindingListener.html"&gt;&lt;code&gt;HttpSessionBindingListener&lt;/code&gt;&lt;/a&gt; and will properly invoked callbacks on implementations of this API. This also means that it is now possible to use &lt;code&gt;@PreDestroy&lt;/code&gt; on session scoped beans, since that feature is realized using Spring Framework&amp;#8217;s &lt;code&gt;DestructionCallbackBindingListener&lt;/code&gt; which is a concrete implementation of &lt;code&gt;HttpSessionBindingListener&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="custom-serialization-for-redis-code-websession-code-integration"&gt;&lt;a class="anchor" href="#custom-serialization-for-redis-code-websession-code-integration"&gt;&lt;/a&gt;Custom serialization for Redis &lt;code&gt;WebSession&lt;/code&gt; integration&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Our Redis &lt;code&gt;WebSession&lt;/code&gt; integration can now be easily configured to use a custom serialization mechanism. In a similar fashion like with Redis &lt;code&gt;HttpSession&lt;/code&gt; integration, this can be achived by providing a &lt;code&gt;@Bean&lt;/code&gt; of type &lt;code&gt;RedisSerializer&amp;lt;Object&amp;gt;&lt;/code&gt; that is named &lt;code&gt;springSessionDefaultRedisSerializer&lt;/code&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-java" data-lang="java"&gt;@EnableRedisWebSession
+static class SessionConfig {
+
+    @Bean
+    public RedisSerializer&amp;lt;Object&amp;gt; springSessionDefaultRedisSerializer() {
+        // configure and return a serializer of your choice
+    }
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="performance-improvements-for-jdbc-code-httpsession-code-integration"&gt;&lt;a class="anchor" href="#performance-improvements-for-jdbc-code-httpsession-code-integration"&gt;&lt;/a&gt;Performance improvements for JDBC &lt;code&gt;HttpSession&lt;/code&gt; integration&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We have added a couple of performance improvements for our JDBC &lt;code&gt;HttpSession&lt;/code&gt; integration:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;lazy deserialization of session attributes - session attributes will now be deserialized on first access, rather than on retrieval of &lt;code&gt;HttpSession&lt;/code&gt; from database, which can for many HTTP request avoid the cost of deserialization completely&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;option for disabling transactions - for users that want to avoid the cost of transactions, &lt;code&gt;JdbcOperationsSessionRepository&lt;/code&gt; now offers a constructor that takes only &lt;code&gt;JdbcOperations&lt;/code&gt; and uses a no-op &lt;code&gt;TransactionOperations&lt;/code&gt; implementation internally&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="support-for-java-11"&gt;&lt;a class="anchor" href="#support-for-java-11"&gt;&lt;/a&gt;Support for Java 11&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Spring Session now supports recently released Java 11, while the required version of course stays at Java 8. Our CI pipeline has been enhanced so that the project is now continuosly verified against Java 11.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="dependency-upgrades"&gt;&lt;a class="anchor" href="#dependency-upgrades"&gt;&lt;/a&gt;Dependency Upgrades&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Spring Session 2.1 is based on the following latest and greatest releases of key dependencies:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Framework 5.1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Data Lovelace&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Security 5.1&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Project Reactor Californium&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="other"&gt;&lt;a class="anchor" href="#other"&gt;&lt;/a&gt;Other&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Complete details of Spring Session 2.1 release can be found in the following changelogs:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/46?closed=1"&gt;&lt;code&gt;2.1.1.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/28?closed=1"&gt;&lt;code&gt;2.1.0.RELEASE&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/42?closed=1"&gt;&lt;code&gt;2.1.0.RC1&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/41?closed=1"&gt;&lt;code&gt;2.1.0.M3&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/39?closed=1"&gt;&lt;code&gt;2.1.0.M2&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-session/milestone/29?closed=1"&gt;&lt;code&gt;2.1.0.M1&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-session/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-session/docs/2.1.0.RELEASE/reference/html5/"&gt;Documentation&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-session"&gt;Gitter&lt;/a&gt; | &lt;a href="https://stackoverflow.com/questions/tagged/spring-session"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>Spring Cloud for Alibaba 0.2.0 released</title>
     <link rel="alternate" href="https://spring.io/blog/2018/10/30/spring-cloud-for-alibaba-0-2-0-released" />
@@ -89,7 +301,7 @@
     <id>tag:spring.io,2018-10-30:3458</id>
     <updated>2018-10-30T15:15:00Z</updated>
     <content type="html">&lt;p&gt;We are pleased to announce the first Release Candidate of the Spring Cloud Stream Fishtown release train - Fishtown.RC1/2.1.0.RC1.&lt;/p&gt;
-&lt;p&gt;Spring Cloud Stream Fishtown 2.1.0.RC1 is available for use in the &lt;a href="http://repo.spring.io/libs-milestone-local/org/springframework/cloud/spring-cloud-stream/2.1.0.RC1/"&gt;Spring Milestone&lt;/a&gt; repository. The &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-starters/releases/tag/vFishtown.RC1"&gt;release notes&lt;/a&gt; include relevant information about version compatibility with Spring Boot, Spring Cloud, Spring AMQP, and Spring for Apache Kafka. &lt;/p&gt;
+&lt;p&gt;Spring Cloud Stream Fishtown 2.1.0.RC1 is available for use in the &lt;a href="http://repo.spring.io/libs-milestone-local/org/springframework/cloud/spring-cloud-stream/2.1.0.RC1/"&gt;Spring Milestone&lt;/a&gt; repository. &lt;/p&gt;
 &lt;p&gt;The following section provides a brief summary of features and improvements included in this release.&lt;/p&gt;&lt;h3&gt;&lt;a href="#notable-dependency-upgrades" class="anchor" name="notable-dependency-upgrades"&gt;&lt;/a&gt;Notable Dependency Upgrades&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Spring Boot 2.1.0.RC1&lt;/li&gt;
@@ -1599,92 +1811,5 @@ coming soon.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>How Welcoming is the Spring Community for Apprentice Developers? A Recent Survey Says We Can Do Better.</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/18/how-welcoming-is-the-spring-community-for-apprentice-developers-a-recent-survey-says-we-can-do-better" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Diógenes Rettori</name>
-    </author>
-    <id>tag:spring.io,2018-10-18:3441</id>
-    <updated>2018-10-18T15:12:00Z</updated>
-    <content type="html">&lt;p&gt;Just starting your dev career? Check out this last report on the &lt;a href="https://snyk.io/blog/jvm-ecosystem-report-2018"&gt;JVM ecosystem&lt;/a&gt;. Simon Maple, Andrew Binstock, and many others have done developers of all skill levels a great service with this data.&lt;br/&gt;&lt;blockquote class="twitter-tweet" data-lang="en" align="center"&gt;&lt;p lang="en" dir="ltr"&gt;&amp;lt;&lt;a href="https://twitter.com/snyksec?ref_src=twsrc%5Etfw"&gt;@snyksec&lt;/a&gt;&amp;gt;Mirror mirror on the wall, which is the most popular Java web framework of them all? &lt;br&gt;&lt;br&gt;&amp;lt;Mirror&amp;gt; We live in a Spring-world. In fact, the average application is more likely to use Spring than not! 54% of apps use Spring Boot/Spring MVC/JHipster.&lt;a href="https://t.co/2dkjt6xauK"&gt;&lt;a href="https://t.co/2dkjt6xauK"&gt;https://t.co/2dkjt6xauK&lt;/a&gt;&lt;/a&gt; &lt;a href="https://t.co/KcMYWew6Jk"&gt;pic.twitter.com/KcMYWew6Jk&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon Maple (@sjmaple) &lt;a href="https://twitter.com/sjmaple/status/1053251232037515264?ref_src=twsrc%5Etfw"&gt;October 19, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a long-time Spring developer, and I&amp;rsquo;ve advocated for it for the last 10 years. It&amp;rsquo;s no surprise how widely adopted it is. Spring Boot dominates the Cloud Native Java ecosystem. Download numbers keep growing at unseen rates. In fact, according to the survey, there are more people developing using Spring technologies than not. It&amp;rsquo;s a great time to be a Java developer! &lt;/p&gt;
-&lt;p&gt;I could be happier though, so let&amp;rsquo;s get to the reason of my concern. Take a look at the tweet below:&lt;br/&gt;&lt;blockquote class="twitter-tweet" data-lang="en" align="center"&gt;&lt;p lang="en" dir="ltr"&gt;So easy for me to jump on the &amp;quot;next thing&amp;quot; and forget that folks are always entering our field and learning the first things. Here&amp;#39;s a great &lt;a href="https://twitter.com/digitalocean?ref_src=twsrc%5Etfw"&gt;@digitalocean&lt;/a&gt; tutorial on SQL queries &amp;hellip; &lt;a href="https://t.co/t65H4BXMMm"&gt;&lt;a href="https://t.co/t65H4BXMMm"&gt;https://t.co/t65H4BXMMm&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;&amp;mdash; Richard Seroter (@rseroter) &lt;a href="https://twitter.com/rseroter/status/1052928022045577216?ref_src=twsrc%5Etfw"&gt;October 18, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;br/&gt;&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;p&gt;Based on the report, 38% of respondents are younger than 35. Almost 1 in 5 younger than 30. And while I love to talk about how &lt;a href="https://content.pivotal.io/blog/secure-software-happy-developers-and-cost-effective-applications-all-with-spring"&gt;Reactive&lt;/a&gt; development patterns can make your applications more scalable (amongst other things), I do have to tell myself that there is a huge number of folks that are just starting their careers in software engineering. These folks need introductory topics, not black-belt level training. &lt;/p&gt;
-&lt;p&gt;How is the Java community doing at engaging these emerging developers? I believe that the overall JVM ecosystem with its communities and vendors - with myself included - have been doing a less than optimal job and this might not be a popular opinion. I believe we have more work to do to make technology accessible to new and fresh engineers. Consider the data from the aforementioned report: only 1% of respondents are under the age of 21 and to me this is troubling. According to the US Bureau of Labor Statistics, around &lt;a href="https://www.bls.gov/cps/cpsaat11b.htm"&gt;5% of software developers and programmers are 24 and younger&lt;/a&gt; which hints me that the 1% needs to at least double.&lt;/p&gt;&lt;h1&gt;&lt;a href="#you-rsquo-re-just-starting-that-is-great" class="anchor" name="you-rsquo-re-just-starting-that-is-great"&gt;&lt;/a&gt;You&amp;rsquo;re Just Starting. That is Great!&lt;/h1&gt;
-&lt;p&gt;I&amp;rsquo;m not proposing any long-term fixes in this post other than having a mindset that is inclusive of all ages. But I do want to share some of the essential assets that can help developers get their collective head around Spring and Java. These videos and articles are excellent resources if you&amp;rsquo;re just now starting software development. If you have heard of Spring - but also have no idea what it is or does - these are for you, and remember, &lt;a href="https://builttoadapt.io/dear-graduates-youre-not-junior-developers-53b80e020713"&gt;it&amp;rsquo;s ok to be an apprentice&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#spring-and-spring-boot-basics" class="anchor" name="spring-and-spring-boot-basics"&gt;&lt;/a&gt;Spring and Spring Boot Basics&lt;/h2&gt;
-&lt;p&gt;My first recommendation would be to start understanding the basics of Spring Framework and Boot.This video does a great job at that:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.youtube.com/watch?v=QHjFVajYYHM" title="Spring Framework 5"&gt;&lt;img src="http://img.youtube.com/vi/QHjFVajYYHM/0.jpg" alt="Spring Framework 5" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The video contains a good amount of information condensed in less than an hour. Consider that time as an investment you are making in yourself. As a personal tip, I often watch these videos at 1.25x speed and will slow it back to 1x when the content is more complex.&lt;/p&gt;&lt;h2&gt;&lt;a href="#wait-what-is-maven" class="anchor" name="wait-what-is-maven"&gt;&lt;/a&gt;Wait, what is Maven?&lt;/h2&gt;
-&lt;p&gt;If you watched that video, you certainly heard the word &amp;lsquo;Maven&amp;rsquo; a few times. I remember a point in my career where Maven was starting. I also had doubts on what it is and what it does. Here&amp;rsquo;s a quick 5 minutes primer on maven:&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.youtube.com/watch?v=bmyOiz2Jjak" title="What is Maven"&gt;&lt;img src="http://img.youtube.com/vi/bmyOiz2Jjak/0.jpg" alt="What is Maven" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Your application needs to store data somewhere.A database is a great place to do that. As @rseroter mentioned on his tweet, the team at Digital Ocean has done a pretty good job at introducing &lt;a href="https://www.digitalocean.com/community/tutorials/introduction-to-queries-mysql"&gt;SQL and MySQL in this blog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m sure that if you&amp;rsquo;re starting with these videos and blog, you might think that &lt;a href="https://www.youtube.com/watch?v=jDchAEHIht0"&gt;there&amp;rsquo;s a lot of magic happening &lt;/a&gt;behind the scenes. That is a good thing! &lt;/p&gt;
-&lt;p&gt;Most of the work done in Spring Boot (which helps you bootstrap Spring applications) was done so that the barrier to entry is much lower. Especially when compared to &amp;lsquo;traditional&amp;rsquo; Spring. The value proposition for Boot is even better when compared to older Java EE servers. &lt;/p&gt;
-&lt;p&gt;How does Spring Boot do this? Boot makes a few decisions for you. This abstracts massive amounts of complexity. &lt;/p&gt;&lt;h2&gt;&lt;a href="#life-is-bootiful" class="anchor" name="life-is-bootiful"&gt;&lt;/a&gt;Life is Bootiful.&lt;/h2&gt;
-&lt;p&gt;Finally, my personal favorite: &lt;a href="https://developer.okta.com/blog/2017/12/06/bootiful-development-with-spring-boot-and-react"&gt;Bootiful Development with Spring Boot and React&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At the end of this tutorial you will have a working application with a React frontend and Spring on the backend. As a plus this tutorial also includes authentication with Okta.&lt;/p&gt;&lt;h1&gt;&lt;a href="#the-mighty-code-first-timers-only-code-tag" class="anchor" name="the-mighty-code-first-timers-only-code-tag"&gt;&lt;/a&gt;The mighty &lt;code&gt;first-timers-only&lt;/code&gt; tag.&lt;/h1&gt;
-&lt;p&gt;For those looking to get involved in contributing to Spring Boot, the github &lt;a href="https://github.com/spring-projects/spring-boot"&gt;repo&lt;/a&gt; might be a bit overwhelming. In fact, you might be asking yourself: how can I possibly get involved here? We have a tag just for this scenario: ‘first-timers-only’. We will occasionally tag issues in the repository with this label to indicate we&amp;rsquo;ll help you if you&amp;rsquo;re a brand new contributor to the project and facilitate your onboarding with the tech. Here’s an example: &lt;a href="https://github.com/spring-projects/spring-boot/issues/14599"&gt;https://github.com/spring-projects/spring-boot/issues/14599&lt;/a&gt;. Most projects also use an &lt;code&gt;ideal-for-contribution&lt;/code&gt; label to help &lt;em&gt;existing&lt;/em&gt; contributors find issues that we really want help with.&lt;/p&gt;&lt;h1&gt;&lt;a href="#for-the-lsquo-seniors-rsquo-out-there" class="anchor" name="for-the-lsquo-seniors-rsquo-out-there"&gt;&lt;/a&gt;For the &amp;lsquo;seniors&amp;rsquo; out there.&lt;/h1&gt;
-&lt;p&gt;This is a callout to all of you seasoned Spring developers. How can we make the Spring community more inclusive for the younger generation? People need to feel comfortable about starting today with Java technologies. I want to help, let me know if you also do!&lt;/p&gt;
-&lt;p&gt;If we do this right, the next JVM report show that the JVM ecosystem has evolved to include a more diverse range of developers. And more voices means that more points of view are represented, which makes our software collectively better.&lt;/p&gt;&lt;h1&gt;&lt;a href="#share-your-experience" class="anchor" name="share-your-experience"&gt;&lt;/a&gt;Share your experience!&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;What was a great video that you think is a must for anyone starting with Spring?&lt;/li&gt;
-  &lt;li&gt;Do you have a favorite book on Spring, or Java development in general?&lt;/li&gt;
-  &lt;li&gt;That one tutorial you used that saved you tons of time, maybe you could share that with us!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I would love to see what you have used to learn Spring, so let&amp;rsquo;s collaborate on the comments.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring IO Platform Cairo-SR5</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/18/spring-io-platform-cairo-sr5" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2018-10-18:3440</id>
-    <updated>2018-10-18T13:57:31Z</updated>
-    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Cairo-SR5 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
-&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reactor Bismuth-SR12&lt;/li&gt;
-  &lt;li&gt;Spring AMQP 2.0.8&lt;/li&gt;
-  &lt;li&gt;Spring Boot 2.0.6&lt;/li&gt;
-  &lt;li&gt;Spring Data Kay SR11&lt;/li&gt;
-  &lt;li&gt;Spring Framework 5.0.10&lt;/li&gt;
-  &lt;li&gt;Spring Integration 5.0.9&lt;/li&gt;
-  &lt;li&gt;Spring Security 5.0.9&lt;/li&gt;
-  &lt;li&gt;Spring Security OAuth 2.2.3&lt;/li&gt;
-  &lt;li&gt;Spring Session Apple SR6&lt;/li&gt;
-  &lt;li&gt;Spring Web Flow 2.5.1&lt;/li&gt;
-  &lt;li&gt;Spring Web Services 3.0.4&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Cairo-SR5/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring IO Platform Brussels-SR14</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/10/18/spring-io-platform-brussels-sr14" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Andy Wilkinson</name>
-    </author>
-    <id>tag:spring.io,2018-10-18:3439</id>
-    <updated>2018-10-18T13:36:00Z</updated>
-    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Brussels-SR14 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
-&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring AMQP 1.7.11&lt;/li&gt;
-  &lt;li&gt;Spring Boot 1.5.17&lt;/li&gt;
-  &lt;li&gt;Spring Data Ingalls SR16&lt;/li&gt;
-  &lt;li&gt;Spring Framework 4.3.20&lt;/li&gt;
-  &lt;li&gt;Spring Security 4.2.9&lt;/li&gt;
-  &lt;li&gt;Spring Security OAuth 2.0.16&lt;/li&gt;
-  &lt;li&gt;Spring Web Flow 2.4.8&lt;/li&gt;
-  &lt;li&gt;Spring Web Services 2.4.3&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Brussels-SR14/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
